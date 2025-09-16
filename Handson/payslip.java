@@ -1,5 +1,3 @@
-package practice;
-
 public class payslip {
     public static void main(String[] args) {
         String name = "Reymond Joaquin";
@@ -26,4 +24,5 @@ public class payslip {
         System.out.println("Total Deduction: " + deduction);
         System.out.println("Netpay: " + total);
     }
+
 }
