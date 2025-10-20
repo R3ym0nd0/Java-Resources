@@ -28,7 +28,7 @@ public class MiniLogin {
             }
         }
 
-        if (attempts == 3) {
+        if (attempts == 4) {
             System.out.println("==> Too many failed attempts. Access denied. <==");
         }
 
@@ -59,4 +59,5 @@ public class MiniLogin {
 
         input.close();
     }
+
 }
